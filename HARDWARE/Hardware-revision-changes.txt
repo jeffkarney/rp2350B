@@ -2,6 +2,14 @@ Deisgn made with KiCAD.
 
 RP2350-PICO2-XXL notable hardware revisions changes:
 
+Hardware revision C:
+---
+1. EXT1 and EXT2 moved 0.34mm inside the pcb to set the distance between the 2 connectors in mils step. Now, center to center = 900mils;
+2. R17 and R18 moved. Several capacitors were moved too; 
+3. The mounting holes were moved 0.5mm towards the inside of the board, i.e. towards each other;
+4. Both buttons were moved 0.25mm in both directions - towards top edge of the board and towards each other;
+5. The BOMs from Rev_C are exactly the same as the BOMs from Rev_B. There aren't changes in the BOMs.
+
 Hardware revision B:
 
 1. SD card now in SPI mode by default;
