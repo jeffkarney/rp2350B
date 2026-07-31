@@ -23769,7 +23769,7 @@
 	)
 	(gr_line
 		(start 136 64.5)
-		(end 165 64.5)
+		(end 236 64.5)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -23778,7 +23778,7 @@
 		(uuid "00000000-0000-0000-0000-0000644921fc")
 	)
 	(gr_line
-		(start 136 115.5)
+		(start 136 164.5)
 		(end 136 64.5)
 		(stroke
 			(width 0.254)
@@ -23788,8 +23788,8 @@
 		(uuid "00000000-0000-0000-0000-0000642a5fba")
 	)
 	(gr_line
-		(start 136 115.5)
-		(end 165 115.5)
+		(start 136 164.5)
+		(end 236 164.5)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -23798,8 +23798,8 @@
 		(uuid "00000000-0000-0000-0000-0000644921fd")
 	)
 	(gr_line
-		(start 165 115.5)
-		(end 165 64.5)
+		(start 236 164.5)
+		(end 236 64.5)
 		(stroke
 			(width 0.254)
 			(type solid)
