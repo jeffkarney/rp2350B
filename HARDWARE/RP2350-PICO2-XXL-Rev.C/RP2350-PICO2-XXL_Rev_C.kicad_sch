@@ -184,357 +184,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OLIMEX_Connectors:MICRO_SD(TFC-9P-1.xH(ATFFS150A01BR016))"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "MICRO_SD"
-				(at -3.81 16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "MICRO_SD(TFC-9P-1.xH(ATFFS150A01BR016))"
-				(at -25.4 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.842 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*TFC-WXCP11-08-LF*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MICRO_SD(TFC-9P-1.xH(ATFFS150A01BR016))_0_0"
-				(polyline
-					(pts
-						(xy 5.715 -1.397) (xy 5.969 -1.143)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 -1.397) (xy 5.969 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 6.731 -0.635)
-					(mid 6.4799 -1.3573)
-					(end 5.715 -1.397)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Normal Open Switch"
-					(at 4.445 -1.27 900)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "MICRO_SD(TFC-9P-1.xH(ATFFS150A01BR016))_0_1"
-				(rectangle
-					(start -5.08 15.24)
-					(end 7.62 -15.24)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 7.62) (xy 5.715 7.62) (xy 5.715 0) (xy 6.985 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 -2.54) (xy 5.715 -10.16) (xy 5.08 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MICRO_SD(TFC-9P-1.xH(ATFFS150A01BR016))_1_1"
-				(pin bidirectional line
-					(at -7.62 -5.08 0)
-					(length 2.54)
-					(name "DAT2/RES"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -7.62 12.7 0)
-					(length 2.54)
-					(name "CD/DAT3/CS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 10.16 0)
-					(length 2.54)
-					(name "CMD/DI"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 7.62 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "CLK/SCLK"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 5.08 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DAT0/DO"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "DAT1/RES"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -10.16 0)
-					(length 2.54)
-					(name "Card_Detect"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CD1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -12.7 0)
-					(length 2.54)
-					(name "Card_Housing"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CH1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "OLIMEX_Connectors:USB2.0_TYPE-C(A40-00119-A52-12)"
 			(pin_names
 				(offset 1.016)
@@ -959,176 +608,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OLIMEX_Devices:Crystal_GND"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 0 2.286 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Crystal_GND"
-				(at 0.762 -2.794 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Crystal_GND_0_1"
-				(polyline
-					(pts
-						(xy -1.143 1.27) (xy -1.143 -1.27)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.143 -1.778) (xy 1.143 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.016) (xy 0.508 1.016) (xy 0.508 -1.016) (xy -0.508 -1.016) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0.3048)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 1.27) (xy 1.143 -1.27)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_GND_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "case"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.635 0.635)
 							)
 						)
 					)
@@ -4486,6 +3965,514 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_Crystal_AKL:SMD2520-4"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "X"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMD2520-4"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_Crystal_AKL:Crystal_SMD_2520-4Pin_2.5x2.0mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SMD Quartz crystal, 4 terminals, 2.5mm x 2.0mm, Alternate KiCad Library"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz resonator crystal shielded smd 2520"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMD2520-4_0_1"
+				(rectangle
+					(start -3.81 3.81)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy 1.905 1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "GND"
+					(at 0 -5.08 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "SMD2520-4_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -8.89 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -8.89 90)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SparkFun-Jumper:SolderJumper_3_Open_No_Silk"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 3.81 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_SparkFun-Jumper:Jumper_3_NO_NoSilk"
+				(at 0.254 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 3-pole, open"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SparkFun Solder Jumper SPDT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Open_No_Silk_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 -1.016)
+					(mid -2.0276 0)
+					(end -1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 -1.016)
+					(mid -2.0276 0)
+					(end -1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.016)
+					(mid 2.0276 0)
+					(end 1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.016)
+					(mid 2.0276 0)
+					(end 1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Open_No_Silk_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(circle
 		(center 60.96 130.81)
@@ -4543,20 +4530,6 @@
 		)
 		(uuid "29ae9cac-6a93-40d0-a6ea-874758e509b6")
 	)
-	(text "By default, the SD/MMC is\nconnected in SPI Mode!\nOption for 1-bit MMC Data was added too."
-		(exclude_from_sim no)
-		(at 304.8 241.3 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-				(thickness 0.9144)
-				(bold yes)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "39dedb7f-525a-42cf-895b-78d8c204ee0d")
-	)
 	(text "The Maximum Size of the Flash is: \"Up to 16 MB of external QSPI flash/PSRAM via dedicated QSPI bus\". So, the Flash Memory Options are:\n-> 16Mbit(2MB), in the \"-XL\" variant, i.e. W25Q16JVSSIQ.\n-> 128Mbit(16MB), in the \"-XXL\" variant, i.e. W25Q128JVSIQ."
 		(exclude_from_sim no)
 		(at 38.1 29.21 0)
@@ -4570,20 +4543,6 @@
 			(justify left bottom)
 		)
 		(uuid "3b2fe99c-3600-473b-ba5c-8ccee4a932f6")
-	)
-	(text "SD/MMC Card"
-		(exclude_from_sim no)
-		(at 322.58 193.04 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 0.9144)
-				(bold yes)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "405e6edd-acbb-4268-b7b2-0a6e70aeca1c")
 	)
 	(text "USB"
 		(exclude_from_sim no)
@@ -4612,20 +4571,6 @@
 			(justify left bottom)
 		)
 		(uuid "6ee2e3f0-57a8-4e70-9262-477863e78d21")
-	)
-	(text "For the corresponding software, please, refer to:\nhttps://github.com/raspberrypi/pico-extras/tree/master/src/rp2_common/pico_sd_card\nhttps://github.com/raspberrypi/pico-extras/blob/master/src/common/pico_sd_card/include/pico/sd_card.h"
-		(exclude_from_sim no)
-		(at 304.8 247.65 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-				(thickness 0.9144)
-				(bold yes)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "80be919c-0de6-495c-9364-fc9d6a328072")
 	)
 	(text "Options:"
 		(exclude_from_sim no)
@@ -4738,20 +4683,6 @@
 		)
 		(uuid "ecbaee46-400c-409c-9208-bceb8dd8d644")
 	)
-	(text "Present only in the \"-XXL\" variant!"
-		(exclude_from_sim no)
-		(at 320.04 196.85 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-				(thickness 0.9144)
-				(bold yes)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "f90a82a8-e384-4a0f-935a-6a64d753bf1f")
-	)
 	(junction
 		(at 236.22 220.98)
 		(diameter 0)
@@ -4771,22 +4702,10 @@
 		(uuid "0ee6459a-b18e-4762-8282-c0b641823943")
 	)
 	(junction
-		(at 309.88 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1490906e-c593-457d-b586-d5f91b9f5af5")
-	)
-	(junction
 		(at 71.12 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2487172e-4c73-4ca0-8b24-53a96ab503a3")
-	)
-	(junction
-		(at 309.88 223.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "277fc96e-0333-44d3-9b17-dccb53f6b258")
 	)
 	(junction
 		(at 30.48 121.92)
@@ -4805,12 +4724,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2acd5935-2f82-420d-a62e-afcf5e38e65f")
-	)
-	(junction
-		(at 353.06 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2aebb840-1d92-4cd3-8660-40bd57bbb13f")
 	)
 	(junction
 		(at 30.48 109.22)
@@ -4835,12 +4748,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3781f4c0-a1a7-4f75-a08a-36a3cb565501")
-	)
-	(junction
-		(at 373.38 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3945deb7-ef58-45c6-aeb6-c9d7a424da00")
 	)
 	(junction
 		(at 71.12 96.52)
@@ -4907,12 +4814,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "577e9a83-d70e-43d2-ab47-a3eb3ad4568d")
-	)
-	(junction
-		(at 66.04 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57fbe3eb-3c19-486c-b0b8-d33a71aa30eb")
 	)
 	(junction
 		(at 55.88 134.62)
@@ -4987,12 +4888,6 @@
 		(uuid "825d5d31-874d-4b86-ab2c-f6bc799f4fbc")
 	)
 	(junction
-		(at 30.48 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87da68d1-531b-4a36-bfb8-04052641c51b")
-	)
-	(junction
 		(at 30.48 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5029,12 +4924,6 @@
 		(uuid "904cfbc5-08e8-4ec6-a54e-779f84a240a5")
 	)
 	(junction
-		(at 48.26 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97be3af1-505a-42d1-9706-e9100678ad46")
-	)
-	(junction
 		(at 71.12 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5053,12 +4942,6 @@
 		(uuid "a0b83898-95ea-4a36-961b-a3f8573d1224")
 	)
 	(junction
-		(at 373.38 223.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1d78dc3-1290-42ed-8600-6109c12c0978")
-	)
-	(junction
 		(at 40.64 271.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5075,18 +4958,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a43f7027-af45-4205-ad56-69a7347ba081")
-	)
-	(junction
-		(at 30.48 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5ad82d8-06b4-4028-9923-d86cd02698a4")
-	)
-	(junction
-		(at 358.14 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7352d1e-31d7-4f4c-8430-83e2c604375b")
 	)
 	(junction
 		(at 71.12 101.6)
@@ -5119,22 +4990,10 @@
 		(uuid "b6a3fc78-818b-4191-87e4-fed585936129")
 	)
 	(junction
-		(at 355.6 210.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b82d8859-70de-4258-bb9b-c3684dbfa0bd")
-	)
-	(junction
 		(at 30.48 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bba162c5-3fac-4765-9b81-3728f296d89c")
-	)
-	(junction
-		(at 309.88 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be4d9072-c19e-4be8-a60f-99171dccf35b")
 	)
 	(junction
 		(at 30.48 99.06)
@@ -5155,6 +5014,12 @@
 		(uuid "c917e77c-60f0-4a2d-98e8-c65083fa3c62")
 	)
 	(junction
+		(at 41.91 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc77904a-2654-47f6-8958-3214e5b18287")
+	)
+	(junction
 		(at 73.66 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5171,12 +5036,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdcd9ac1-f661-4932-8397-37cf81730fb8")
-	)
-	(junction
-		(at 309.88 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf700e97-ed4a-4728-a6d0-79e77bf07768")
 	)
 	(junction
 		(at 261.62 228.6)
@@ -5251,28 +5110,16 @@
 		(uuid "ea00e5a5-2ce1-49a8-b0d5-81fa982a1a79")
 	)
 	(junction
-		(at 309.88 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3704ead-ff53-47ce-b01d-498cead3c351")
-	)
-	(junction
-		(at 375.92 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f38297a9-358e-4952-a17d-12c749aacab5")
-	)
-	(junction
 		(at 40.64 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9017198-b27e-4d4b-90f3-bf711a441884")
 	)
 	(junction
-		(at 320.04 215.9)
+		(at 41.91 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fa1509c5-4eec-47c5-9f92-421162abf290")
+		(uuid "faea1f22-f1cc-4696-8d8c-3c43e5b4e0f8")
 	)
 	(junction
 		(at 71.12 154.94)
@@ -5295,10 +5142,6 @@
 	(no_connect
 		(at 35.56 251.46)
 		(uuid "133876f0-7687-430d-af69-d9e9ec01a81b")
-	)
-	(no_connect
-		(at 381 233.68)
-		(uuid "c1baa910-b0bd-431b-b7df-ea84515f7c00")
 	)
 	(no_connect
 		(at 35.56 254)
@@ -5420,15 +5263,6 @@
 			(type default)
 		)
 		(uuid "316789f4-10d7-4abe-9696-8dcbfc82cceb")
-	)
-	(bus_entry
-		(at 304.8 231.14)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3229e39b-6611-47a2-a0da-c4b491538cdb")
 	)
 	(bus_entry
 		(at 218.44 152.4)
@@ -5611,15 +5445,6 @@
 		(uuid "81db7c1e-a8c5-4b51-a00d-633471af15c2")
 	)
 	(bus_entry
-		(at 304.8 218.44)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "830667e8-68a7-42a3-9617-72ab41f507bd")
-	)
-	(bus_entry
 		(at 218.44 60.96)
 		(size -2.54 2.54)
 		(stroke
@@ -5672,15 +5497,6 @@
 			(type default)
 		)
 		(uuid "aaffd8e9-8b98-48cc-8227-7482adca0291")
-	)
-	(bus_entry
-		(at 304.8 198.12)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aba8bd2e-1e0c-4cf9-9b89-0f8550b349c5")
 	)
 	(bus_entry
 		(at 25.4 83.82)
@@ -5744,15 +5560,6 @@
 			(type default)
 		)
 		(uuid "bddd8c99-37c8-4cbf-95d5-09ac1c284fea")
-	)
-	(bus_entry
-		(at 304.8 208.28)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c319e824-3219-432f-a9a4-feb94002f1e1")
 	)
 	(bus_entry
 		(at 218.44 111.76)
@@ -5982,16 +5789,6 @@
 		)
 		(uuid "066a8bf6-7866-489c-ae23-6c16ef625672")
 	)
-	(wire
-		(pts
-			(xy 309.88 205.74) (xy 322.58 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07702fe6-cee6-47c5-b999-56b31197ac10")
-	)
 	(bus
 		(pts
 			(xy 218.44 152.4) (xy 218.44 154.94)
@@ -6031,16 +5828,6 @@
 			(type default)
 		)
 		(uuid "0a4fa81b-598c-4542-a19d-b24545843bfc")
-	)
-	(bus
-		(pts
-			(xy 304.8 182.88) (xy 304.8 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a99dcf4-9d40-4772-abe5-74e8ae5f7d33")
 	)
 	(wire
 		(pts
@@ -6121,16 +5908,6 @@
 			(type default)
 		)
 		(uuid "0f37de1c-dcac-4737-bc8b-f5230c9c2414")
-	)
-	(wire
-		(pts
-			(xy 355.6 220.98) (xy 307.34 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10c0a367-7d09-4240-b7ad-dd630f026e62")
 	)
 	(wire
 		(pts
@@ -6254,6 +6031,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 191.77) (xy 72.39 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14fec5f5-1863-4acf-8da6-fbc6c85ca1cf")
+	)
+	(wire
+		(pts
 			(xy 38.1 127) (xy 30.48 127)
 		)
 		(stroke
@@ -6261,26 +6048,6 @@
 			(type default)
 		)
 		(uuid "151b173e-cb4c-4602-adf0-2aa77b332cce")
-	)
-	(wire
-		(pts
-			(xy 309.88 203.2) (xy 309.88 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "151b3d43-6f2a-47e9-bd35-556125958480")
-	)
-	(wire
-		(pts
-			(xy 355.6 210.82) (xy 355.6 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1540bd8f-5f3e-46d4-a5fc-666249eca7f8")
 	)
 	(polyline
 		(pts
@@ -6301,16 +6068,6 @@
 			(type default)
 		)
 		(uuid "164ff8b6-72d0-4f2f-ba18-4237a5344efa")
-	)
-	(wire
-		(pts
-			(xy 355.6 210.82) (xy 307.34 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17c76f99-3432-414d-8d66-dd4c99dcdb65")
 	)
 	(wire
 		(pts
@@ -6434,16 +6191,6 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 208.28) (xy 375.92 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1da79af7-449c-4e1c-bcd5-ccae7bc7c61e")
-	)
-	(wire
-		(pts
 			(xy 182.88 88.9) (xy 215.9 88.9)
 		)
 		(stroke
@@ -6462,26 +6209,6 @@
 		)
 		(uuid "1e918a29-eff9-4d48-9e00-4a592bd733f7")
 	)
-	(wire
-		(pts
-			(xy 330.2 213.36) (xy 353.06 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ee7b66d-bc53-4362-a9e2-69a71488f664")
-	)
-	(bus
-		(pts
-			(xy 304.8 218.44) (xy 304.8 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2031c4eb-138d-4996-80f1-53dea1c601e2")
-	)
 	(bus
 		(pts
 			(xy 289.56 182.88) (xy 304.8 182.88)
@@ -6491,16 +6218,6 @@
 			(type default)
 		)
 		(uuid "2042aa24-6b5e-4c8c-9699-aafef8141fc5")
-	)
-	(wire
-		(pts
-			(xy 330.2 226.06) (xy 381 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20d4a2fe-08c1-468f-a329-76d580ec12e6")
 	)
 	(wire
 		(pts
@@ -6652,16 +6369,6 @@
 		)
 		(uuid "279fe60d-b9cb-4238-a241-9ed944652509")
 	)
-	(wire
-		(pts
-			(xy 309.88 213.36) (xy 320.04 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "290e0d86-5584-4b8b-91a8-6e9f7fada7dc")
-	)
 	(bus
 		(pts
 			(xy 218.44 129.54) (xy 218.44 132.08)
@@ -6754,26 +6461,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 205.74) (xy 355.6 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "312d6e66-9020-4ba8-a60c-7b59fd8428ac")
-	)
-	(wire
-		(pts
-			(xy 381 218.44) (xy 320.04 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33608b92-b0b9-4d69-b259-356e27b7bdd2")
-	)
-	(wire
-		(pts
 			(xy 182.88 81.28) (xy 215.9 81.28)
 		)
 		(stroke
@@ -6791,16 +6478,6 @@
 			(type default)
 		)
 		(uuid "346bb2ad-3a9b-4cc6-8593-cd988511154c")
-	)
-	(wire
-		(pts
-			(xy 358.14 203.2) (xy 330.2 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34fdb34f-d8c5-4b8f-a359-6fbe8d205023")
 	)
 	(wire
 		(pts
@@ -6994,26 +6671,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 180.34) (xy 48.26 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e4113c9-5e5a-4098-aae3-6a7208aec187")
-	)
-	(wire
-		(pts
-			(xy 363.22 233.68) (xy 373.38 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e44a80c-b19d-4ce9-9e62-11b5878d2721")
-	)
-	(wire
-		(pts
 			(xy 38.1 144.78) (xy 30.48 144.78)
 		)
 		(stroke
@@ -7044,16 +6701,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 215.9) (xy 375.92 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40d21164-d1cb-4d35-9fef-e5736207d9cb")
-	)
-	(wire
-		(pts
 			(xy 63.5 259.08) (xy 63.5 261.62)
 		)
 		(stroke
@@ -7071,6 +6718,16 @@
 			(type default)
 		)
 		(uuid "4110a37b-deec-46e6-98cf-c05b78f4493f")
+	)
+	(wire
+		(pts
+			(xy 41.91 185.42) (xy 41.91 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41883281-798e-4dab-a3a4-68cf9bdc98f5")
 	)
 	(bus
 		(pts
@@ -7132,16 +6789,6 @@
 		)
 		(uuid "4432b0ba-edde-46fb-89f8-8859b3439af7")
 	)
-	(wire
-		(pts
-			(xy 309.88 205.74) (xy 309.88 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44aca896-2909-4f0e-aadd-14dc6569ca1e")
-	)
 	(polyline
 		(pts
 			(xy 294.64 182.88) (xy 294.64 248.92)
@@ -7161,26 +6808,6 @@
 			(type default)
 		)
 		(uuid "45783141-16be-417d-8a0d-2953e9137732")
-	)
-	(wire
-		(pts
-			(xy 317.5 215.9) (xy 320.04 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45dd3838-4d58-4b1d-adad-987cc0e74d3b")
-	)
-	(wire
-		(pts
-			(xy 320.04 215.9) (xy 325.12 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45de91eb-6140-4c07-b074-65bc924b8eae")
 	)
 	(bus
 		(pts
@@ -7204,16 +6831,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 215.9) (xy 353.06 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "469e3ca5-ae56-440c-9b9a-e0208dc62b3c")
-	)
-	(wire
-		(pts
 			(xy 35.56 246.38) (xy 53.34 246.38)
 		)
 		(stroke
@@ -7221,6 +6838,16 @@
 			(type default)
 		)
 		(uuid "472edc3a-e801-4fed-b346-c529373ed569")
+	)
+	(wire
+		(pts
+			(xy 52.07 190.5) (xy 52.07 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "476dfcd8-b235-46ad-8595-2f3bb7851c19")
 	)
 	(wire
 		(pts
@@ -7251,16 +6878,6 @@
 			(type default)
 		)
 		(uuid "4a805374-1ebe-4a2c-a536-833fe68d5c2d")
-	)
-	(wire
-		(pts
-			(xy 353.06 213.36) (xy 353.06 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4acf2478-e578-478c-a50f-5dc8e385fedb")
 	)
 	(bus
 		(pts
@@ -7324,16 +6941,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 182.88) (xy 48.26 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5169a823-3377-4dc0-bea2-07642dbefff7")
-	)
-	(wire
-		(pts
 			(xy 261.62 231.14) (xy 287.02 231.14)
 		)
 		(stroke
@@ -7364,16 +6971,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 210.82) (xy 358.14 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5304fdcf-7fc7-41df-b5d3-e668397cfc8f")
-	)
-	(wire
-		(pts
 			(xy 53.34 63.5) (xy 76.2 63.5)
 		)
 		(stroke
@@ -7381,16 +6978,6 @@
 			(type default)
 		)
 		(uuid "5602c60e-c1ac-4d43-9c12-615a1c5a6969")
-	)
-	(wire
-		(pts
-			(xy 309.88 195.58) (xy 309.88 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5612ee5e-c356-45ba-9c15-509bac366786")
 	)
 	(wire
 		(pts
@@ -7474,16 +7061,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 233.68) (xy 373.38 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bf072e7-0093-4162-aece-d7da838224cc")
-	)
-	(wire
-		(pts
 			(xy 30.48 66.04) (xy 30.48 76.2)
 		)
 		(stroke
@@ -7531,6 +7108,16 @@
 			(type default)
 		)
 		(uuid "5dfcb759-1379-40b3-9797-544990bb8de3")
+	)
+	(wire
+		(pts
+			(xy 72.39 185.42) (xy 76.2 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e230d52-5417-4259-b34a-96c1aec4c07a")
 	)
 	(wire
 		(pts
@@ -7654,23 +7241,13 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 185.42) (xy 30.48 187.96)
+			(xy 30.48 182.88) (xy 30.48 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "63588b3d-31e4-4266-b9e6-763224bb2476")
-	)
-	(wire
-		(pts
-			(xy 368.3 238.76) (xy 373.38 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "638b2fde-579b-4124-a6bf-976c5fef91c5")
 	)
 	(wire
 		(pts
@@ -7712,16 +7289,6 @@
 		)
 		(uuid "66d021bc-3ee6-4d8e-93e8-5b3a567eba20")
 	)
-	(wire
-		(pts
-			(xy 309.88 223.52) (xy 309.88 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67bcc71f-0808-42cb-9ddc-30e54f56ea45")
-	)
 	(bus
 		(pts
 			(xy 218.44 149.86) (xy 218.44 152.4)
@@ -7731,26 +7298,6 @@
 			(type default)
 		)
 		(uuid "6847b776-0137-4b21-91d2-060f0538c3cf")
-	)
-	(wire
-		(pts
-			(xy 63.5 185.42) (xy 30.48 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a6407bc-7db6-498c-93ed-9f1abb5f74f2")
-	)
-	(wire
-		(pts
-			(xy 55.88 180.34) (xy 48.26 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6aadbd5c-7a7c-4ed1-819d-1d24d732fc43")
 	)
 	(wire
 		(pts
@@ -7822,6 +7369,16 @@
 		)
 		(uuid "6e168870-1788-4739-b12d-4802b979a30e")
 	)
+	(wire
+		(pts
+			(xy 41.91 182.88) (xy 43.18 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e514adc-9a25-4ccf-bcf6-b4d3d293c2ae")
+	)
 	(polyline
 		(pts
 			(xy 170.18 254) (xy 170.18 279.4)
@@ -7854,13 +7411,13 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 200.66) (xy 345.44 200.66)
+			(xy 26.67 182.88) (xy 30.48 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7110971c-08b7-48aa-9275-79f84730f941")
+		(uuid "7145400a-ef16-451d-9168-4bf17f3892a1")
 	)
 	(bus
 		(pts
@@ -7891,26 +7448,6 @@
 			(type default)
 		)
 		(uuid "72e92d3c-43f1-4d21-82f8-10b2e9eadb38")
-	)
-	(wire
-		(pts
-			(xy 71.12 185.42) (xy 76.2 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73f224be-ee86-4d45-acd2-04fe73a85e01")
-	)
-	(wire
-		(pts
-			(xy 43.18 187.96) (xy 66.04 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7447a148-ab56-46fe-bd75-a5f80ba92b1a")
 	)
 	(wire
 		(pts
@@ -8034,16 +7571,6 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 226.06) (xy 309.88 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e4af971-59ae-4026-a629-e2cd2ffc5749")
-	)
-	(wire
-		(pts
 			(xy 71.12 137.16) (xy 55.88 137.16)
 		)
 		(stroke
@@ -8111,6 +7638,16 @@
 			(type default)
 		)
 		(uuid "807eec75-35b1-41a3-b880-c4bb1483dc85")
+	)
+	(wire
+		(pts
+			(xy 40.64 185.42) (xy 41.91 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81128935-0f18-462f-a96f-ab996a9cbdc4")
 	)
 	(wire
 		(pts
@@ -8204,16 +7741,6 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 223.52) (xy 322.58 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "873090ce-2727-485b-8df2-cf69e93d4c59")
-	)
-	(wire
-		(pts
 			(xy 73.66 33.02) (xy 83.82 33.02)
 		)
 		(stroke
@@ -8251,16 +7778,6 @@
 			(type default)
 		)
 		(uuid "88e00c05-0c29-458c-b5ba-c9b573b84af0")
-	)
-	(wire
-		(pts
-			(xy 322.58 203.2) (xy 309.88 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8962af67-5a17-45e6-8b33-54209472cb19")
 	)
 	(bus
 		(pts
@@ -8302,16 +7819,6 @@
 		)
 		(uuid "8d54fd97-8342-4522-bbe5-186d7e30ad91")
 	)
-	(wire
-		(pts
-			(xy 353.06 200.66) (xy 358.14 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d7620d1-76ed-4ca8-9bb4-9ace8a380c50")
-	)
 	(bus
 		(pts
 			(xy 218.44 81.28) (xy 218.44 83.82)
@@ -8341,26 +7848,6 @@
 			(type default)
 		)
 		(uuid "8dc14d4b-7df7-413e-9120-16313b4a84c6")
-	)
-	(wire
-		(pts
-			(xy 30.48 182.88) (xy 30.48 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8de5283a-be21-48fb-91df-b1274762196e")
-	)
-	(wire
-		(pts
-			(xy 309.88 226.06) (xy 322.58 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e00081b-9963-452b-aa03-57b7c8352589")
 	)
 	(wire
 		(pts
@@ -8401,26 +7888,6 @@
 			(type default)
 		)
 		(uuid "8ea06956-b0c7-4e37-ad70-5a8fab0978c7")
-	)
-	(wire
-		(pts
-			(xy 330.2 223.52) (xy 373.38 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f1acdd1-bbdf-45bc-911c-cafee3d4167d")
-	)
-	(wire
-		(pts
-			(xy 309.88 213.36) (xy 309.88 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fd2c0c4-0b11-4898-8e2f-b7bd01dfe53b")
 	)
 	(polyline
 		(pts
@@ -8484,16 +7951,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 238.76) (xy 373.38 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "925d7c87-ad22-416c-89c4-e2603597451f")
-	)
-	(wire
-		(pts
 			(xy 55.88 137.16) (xy 55.88 134.62)
 		)
 		(stroke
@@ -8511,6 +7968,16 @@
 			(type default)
 		)
 		(uuid "935d16ab-3f49-420d-9a1a-44b96623abb5")
+	)
+	(wire
+		(pts
+			(xy 72.39 191.77) (xy 72.39 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93934e07-7ffc-4b95-99fb-7c127a5cfb3b")
 	)
 	(wire
 		(pts
@@ -8534,16 +8001,6 @@
 	)
 	(wire
 		(pts
-			(xy 381 220.98) (xy 363.22 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95877e15-fc14-44fa-851d-73675f9d1269")
-	)
-	(wire
-		(pts
 			(xy 182.88 63.5) (xy 215.9 63.5)
 		)
 		(stroke
@@ -8554,7 +8011,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 182.88) (xy 30.48 182.88)
+			(xy 30.48 182.88) (xy 41.91 182.88)
 		)
 		(stroke
 			(width 0)
@@ -8601,16 +8058,6 @@
 			(type default)
 		)
 		(uuid "9c25febd-499c-44cc-ae66-60f863c980fb")
-	)
-	(bus
-		(pts
-			(xy 304.8 208.28) (xy 304.8 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c749dda-150c-47e5-88c0-6ba63bdaf660")
 	)
 	(wire
 		(pts
@@ -8714,16 +8161,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 200.66) (xy 358.14 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2f4e266-935b-4e74-a3ad-a2198b9ce9ac")
-	)
-	(wire
-		(pts
 			(xy 147.32 43.18) (xy 137.16 43.18)
 		)
 		(stroke
@@ -8794,16 +8231,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 187.96) (xy 30.48 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6e7e33d-2edd-4733-9918-042480b398f8")
-	)
-	(wire
-		(pts
 			(xy 236.22 210.82) (xy 248.92 210.82)
 		)
 		(stroke
@@ -8851,16 +8278,6 @@
 			(type default)
 		)
 		(uuid "a931892c-9750-4673-b02f-9e184e4c4094")
-	)
-	(wire
-		(pts
-			(xy 381 210.82) (xy 358.14 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aad1e900-74e6-4a12-8d67-422ec47ff7e9")
 	)
 	(wire
 		(pts
@@ -8921,16 +8338,6 @@
 			(type dash)
 		)
 		(uuid "ac29f9fc-2b0f-41c9-9603-8ecbf9121f26")
-	)
-	(wire
-		(pts
-			(xy 378.46 236.22) (xy 381 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeed221e-77f4-42c3-88d8-90b39ada562c")
 	)
 	(wire
 		(pts
@@ -9001,16 +8408,6 @@
 			(type default)
 		)
 		(uuid "b1da676f-c57c-474e-b382-41ebf84c4cab")
-	)
-	(wire
-		(pts
-			(xy 71.12 187.96) (xy 71.12 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b347bbf6-c130-4938-b9d9-931b8ea7bd00")
 	)
 	(wire
 		(pts
@@ -9104,16 +8501,6 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 218.44) (xy 320.04 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "babe6d17-5b6f-4879-b051-53b63e9afa04")
-	)
-	(wire
-		(pts
 			(xy 236.22 228.6) (xy 236.22 233.68)
 		)
 		(stroke
@@ -9174,16 +8561,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 223.52) (xy 381 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1132ebe-549b-402e-bdd2-2b3de0880046")
-	)
-	(wire
-		(pts
 			(xy 236.22 220.98) (xy 236.22 223.52)
 		)
 		(stroke
@@ -9211,6 +8588,16 @@
 			(type default)
 		)
 		(uuid "c43c624e-284e-4ce8-8aee-c6b7fb8a4ecb")
+	)
+	(wire
+		(pts
+			(xy 39.37 177.8) (xy 52.07 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c473b523-df77-4085-a5d3-74f38ee12cc6")
 	)
 	(bus
 		(pts
@@ -9241,16 +8628,6 @@
 			(type dash)
 		)
 		(uuid "c64fb7d2-d05c-431f-adc1-5c3566052d89")
-	)
-	(wire
-		(pts
-			(xy 335.28 238.76) (xy 360.68 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c68e4475-4db0-45d7-8d18-1cef63e80778")
 	)
 	(wire
 		(pts
@@ -9334,16 +8711,6 @@
 	)
 	(bus
 		(pts
-			(xy 304.8 208.28) (xy 304.8 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfb0daab-92b8-4341-9fee-99d5ae36a2b1")
-	)
-	(bus
-		(pts
 			(xy 218.44 165.1) (xy 218.44 167.64)
 		)
 		(stroke
@@ -9351,16 +8718,6 @@
 			(type default)
 		)
 		(uuid "d0e26d60-b5b2-4c8a-bf2d-024341866492")
-	)
-	(wire
-		(pts
-			(xy 66.04 187.96) (xy 71.12 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d17e97b5-6823-4734-bc2c-3c13ca3cbe3e")
 	)
 	(wire
 		(pts
@@ -9454,16 +8811,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 213.36) (xy 381 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d377d527-2462-4eed-8bd8-f48c51e416d4")
-	)
-	(wire
-		(pts
 			(xy 43.18 101.6) (xy 71.12 101.6)
 		)
 		(stroke
@@ -9481,6 +8828,16 @@
 			(type default)
 		)
 		(uuid "d4c82161-b944-466f-9395-d8154ec7fb43")
+	)
+	(wire
+		(pts
+			(xy 41.91 185.42) (xy 43.18 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89224a0-8e42-4f09-a8f0-3149c8c3a647")
 	)
 	(wire
 		(pts
@@ -9564,23 +8921,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 182.88) (xy 66.04 182.88)
+			(xy 41.91 180.34) (xy 41.91 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc9ad46f-9b75-46f7-a9ba-7901f844a254")
-	)
-	(wire
-		(pts
-			(xy 355.6 205.74) (xy 355.6 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcc76678-e2c6-4a28-98c3-91e2e63390c3")
+		(uuid "dd2bcb7b-c1ff-4a03-8f2c-b7990dbbc8bd")
 	)
 	(wire
 		(pts
@@ -9612,16 +8959,6 @@
 		)
 		(uuid "e1167c5e-92d9-49ae-a929-c2c5793cbb02")
 	)
-	(wire
-		(pts
-			(xy 30.48 187.96) (xy 30.48 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e12cceb9-7902-4f6e-96d5-be66528ad654")
-	)
 	(polyline
 		(pts
 			(xy 228.6 182.88) (xy 294.64 182.88)
@@ -9631,6 +8968,16 @@
 			(type dash)
 		)
 		(uuid "e15e8606-36ae-4a0a-a554-f8eec9f4c175")
+	)
+	(wire
+		(pts
+			(xy 26.67 187.96) (xy 41.91 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d7e859-23a4-49b9-b71e-d3e0c9312303")
 	)
 	(bus
 		(pts
@@ -9654,16 +9001,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 180.34) (xy 76.2 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e416fdb4-3066-4965-ac20-6ed46268bc15")
-	)
-	(wire
-		(pts
 			(xy 71.12 38.1) (xy 25.4 38.1)
 		)
 		(stroke
@@ -9684,16 +9021,6 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 233.68) (xy 355.6 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8ab94a8-2a84-4eb9-b0ff-276bae5c4f7c")
-	)
-	(wire
-		(pts
 			(xy 71.12 109.22) (xy 76.2 109.22)
 		)
 		(stroke
@@ -9711,16 +9038,6 @@
 			(type default)
 		)
 		(uuid "e8dab186-c425-4a78-ad62-c8c26306a4ca")
-	)
-	(wire
-		(pts
-			(xy 309.88 228.6) (xy 322.58 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8dddaf7-945f-441b-b387-9d1f8f31734c")
 	)
 	(wire
 		(pts
@@ -9812,16 +9129,6 @@
 		)
 		(uuid "f33115fe-b540-436b-aebd-7177a21c56c1")
 	)
-	(wire
-		(pts
-			(xy 375.92 215.9) (xy 381 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4245e90-6503-4061-b3df-813bc7202c0a")
-	)
 	(bus
 		(pts
 			(xy 218.44 55.88) (xy 218.44 58.42)
@@ -9901,16 +9208,6 @@
 			(type default)
 		)
 		(uuid "f9b83a7e-79d2-467e-8b79-8d8e688fe447")
-	)
-	(wire
-		(pts
-			(xy 330.2 228.6) (xy 381 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb241ab0-af5e-4b47-bf1e-6715e8948823")
 	)
 	(wire
 		(pts
@@ -10600,18 +9897,6 @@
 		)
 		(uuid "17801355-3610-451c-a139-bff83f240724")
 	)
-	(label "GPIO24\\SPI1_RX\\SD_DAT0"
-		(at 314.96 233.68 0)
-		(effects
-			(font
-				(size 1.397 1.397)
-				(thickness 0.3048)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "184d604c-4262-42c0-9c6e-a2c6a9f84d43")
-	)
 	(label "GPIO6\\SPI0_SCK(SCK)"
 		(at 187.96 68.58 0)
 		(effects
@@ -10868,18 +10153,6 @@
 		)
 		(uuid "45702099-c6c5-4b7e-84c8-5ad35eab1ada")
 	)
-	(label "SD_VDD"
-		(at 360.68 215.9 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-				(thickness 0.3048)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "4ad6b33d-69b9-46c4-8e26-8dac87a1b17b")
-	)
 	(label "USB_D+"
 		(at 35.56 83.82 0)
 		(fields_autoplaced yes)
@@ -10977,18 +10250,6 @@
 			(justify left bottom)
 		)
 		(uuid "59bae480-c0fa-4c2e-a639-18f6e64d0f0d")
-	)
-	(label "GPIO11\\SPI1_TX\\SD_CMD"
-		(at 314.96 210.82 0)
-		(effects
-			(font
-				(size 1.397 1.397)
-				(thickness 0.3048)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b8860c1-907e-4cec-8bd3-b76b59869a3e")
 	)
 	(label "SWCLK"
 		(at 35.56 71.12 0)
@@ -11100,18 +10361,6 @@
 		)
 		(uuid "74919955-86f0-4b80-ae3c-7f3f2cff4065")
 	)
-	(label "GPIO10\\SPI1_SCK\\SD_CLK"
-		(at 314.96 220.98 0)
-		(effects
-			(font
-				(size 1.397 1.397)
-				(thickness 0.3048)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "7d9b5f30-7a14-41aa-b0db-86c75e2eee13")
-	)
 	(label "GPIO30"
 		(at 187.96 137.16 0)
 		(effects
@@ -11209,18 +10458,6 @@
 			(justify left bottom)
 		)
 		(uuid "8b2d6e21-12d6-408c-bf60-fb8e1573ab67")
-	)
-	(label "GPIO9\\SPI1_CSn"
-		(at 355.6 238.76 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-				(thickness 0.3048)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "8bf827ae-77de-4939-be03-b0e80154ca56")
 	)
 	(label "GPIO8\\QMI_CS1n"
 		(at 187.96 76.2 0)
@@ -11503,19 +10740,6 @@
 		)
 		(uuid "bd7d69fd-edad-4f42-a095-ebb1b93860fd")
 	)
-	(label "{Main-BUS}"
-		(at 304.8 215.9 90)
-		(effects
-			(font
-				(size 1.524 1.524)
-				(thickness 0.508)
-				(bold yes)
-				(color 194 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "c006a2e7-9e16-43e0-b8f4-1267befe03f3")
-	)
 	(label "GPIO33"
 		(at 187.96 147.32 0)
 		(effects
@@ -11588,18 +10812,6 @@
 			(justify left bottom)
 		)
 		(uuid "cd942bed-af11-4ca8-b71d-24c2bf64b138")
-	)
-	(label "GPIO9\\SPI1_CSn"
-		(at 314.96 200.66 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-				(thickness 0.3048)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "ce77da90-b00a-4710-af00-d2d4926dd674")
 	)
 	(label "GPIO41"
 		(at 187.96 170.18 0)
@@ -13578,105 +12790,6 @@
 		)
 	)
 	(symbol
-		(lib_id "OLIMEX_RCL:R")
-		(at 326.39 203.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "012727da-dd82-4a6e-8ac3-fa51a5495268")
-		(property "Reference" "R19"
-			(at 320.04 201.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k/R0402"
-			(at 336.55 201.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "OLIMEX_RLC-FP:R_0402_5MIL_DWS"
-			(at 326.39 204.978 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 326.39 203.2 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 326.39 203.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value XL" "NA(10k/R0402)"
-			(at 326.39 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value XXL" ""
-			(at 326.39 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "da447591-2314-4449-bf9e-42c92c501925")
-		)
-		(pin "2"
-			(uuid "2e251a18-257f-4f73-8c6a-cd8749a0c161")
-		)
-		(instances
-			(project "RP2350-PICO2-XXL_Rev_C"
-				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "OLIMEX_RCL:C")
 		(at 40.64 132.08 270)
 		(unit 1)
@@ -13750,6 +12863,89 @@
 			(project "RP2350-PICO2-XXL_Rev_C"
 				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Jumper:SolderJumper_3_Open_No_Silk")
+		(at 39.37 180.34 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04a69545-c736-4983-9cce-6b7fa8e7d244")
+		(property "Reference" "JP1"
+			(at 39.37 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 35.56 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Jumper:Jumper_3_NO_NoSilk"
+			(at 39.116 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 39.37 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60659cbc-bad2-435e-bc7b-92eb9c7ed775")
+		)
+		(pin "2"
+			(uuid "6802c553-27e1-48a4-8f19-7327f7783308")
+		)
+		(pin "3"
+			(uuid "1bd2a27e-e9b4-46ff-b976-7225d6bb592f")
+		)
+		(instances
+			(project "RP2350-PICO2-XXL_Rev_C"
+				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -14261,8 +13457,7 @@
 	)
 	(symbol
 		(lib_id "OLIMEX_RCL:C")
-		(at 40.64 182.88 270)
-		(mirror x)
+		(at 26.67 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14270,9 +13465,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2e5e6186-2d63-4064-80a8-49a865bfd85e")
+		(uuid "256fbd4d-e9d0-4318-bfd0-b668d26c077c")
 		(property "Reference" "C20"
-			(at 34.925 184.15 90)
+			(at 25.4 190.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14282,30 +13477,30 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27pF/50V/5%/C0G/C0402"
-			(at 41.91 184.15 90)
+		(property "Value" "100nF/10V/20%/X5R/C0402"
+			(at 25.4 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "OLIMEX_RLC-FP:C_0402_5MIL_DWS"
-			(at 40.64 182.88 0)
+		(property "Footprint" "KiCad:C_0402_5MIL_DWS"
+			(at 27.6352 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 0.762 0.762)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 182.88 0)
+			(at 26.67 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14315,7 +13510,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 182.88 0)
+			(at 26.67 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14324,90 +13519,38 @@
 				)
 			)
 		)
+		(property "Value XL" ""
+			(at 26.67 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value XXL" ""
+			(at 26.67 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "7702dda4-ef56-445a-9914-49b373e31940")
+			(uuid "63c4de0a-200f-4609-b409-6e225bee6351")
 		)
 		(pin "2"
-			(uuid "fa418ea3-c78d-4b24-8743-aec1cd191d2e")
+			(uuid "40fd0086-e775-41a9-8164-2a5abfc6ac96")
 		)
 		(instances
 			(project "RP2350-PICO2-XXL_Rev_C"
 				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OLIMEX_Power:PWR_FLAG")
-		(at 375.92 208.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "308025fb-fcd0-4e0e-8b5e-4be3cc96a96d")
-		(property "Reference" "#FLG08"
-			(at 375.92 205.867 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 375.92 203.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 375.92 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 375.92 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "80f97d21-ac83-42bb-acc1-f987e205e485")
-		)
-		(instances
-			(project "RP2350-PICO2-XXL_Rev_C"
-				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
-					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -14906,80 +14049,6 @@
 		)
 	)
 	(symbol
-		(lib_id "OLIMEX_Power:+3.3V")
-		(at 309.88 195.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3817ba4f-4fe9-4c49-a8d8-8060d252252e")
-		(property "Reference" "#PWR033"
-			(at 309.88 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 309.88 191.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 309.88 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 309.88 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "053d8bf9-64d1-43b4-943f-472553c73770")
-		)
-		(instances
-			(project "RP2350-PICO2-XXL_Rev_C"
-				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "OLIMEX_Power:GND")
 		(at 27.94 76.2 270)
 		(mirror x)
@@ -15055,8 +14124,8 @@
 		)
 	)
 	(symbol
-		(lib_id "OLIMEX_Devices:Crystal_GND")
-		(at 66.04 185.42 270)
+		(lib_id "OLIMEX_Power:+3.3V")
+		(at 40.64 185.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15064,43 +14133,40 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4126408f-76ea-4f51-b5c4-75a819f3f2fa")
-		(property "Reference" "Q1"
-			(at 67.31 185.42 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q12MHz/18pF/30ppm/4P/3.2x2.5mm(ABM8-12.000MHZ-D2Y-T)"
-			(at 33.02 190.5 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "OLIMEX_Crystal-FP:TSX-3.2x2.5mm_GND(3)"
-			(at 68.1482 187.7314 90)
+		(uuid "41783497-956c-46c6-a8c1-cb6979fb68bf")
+		(property "Reference" "#PWR010"
+			(at 44.45 185.42 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 34.925 185.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 185.42 0)
+			(at 40.64 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15110,7 +14176,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 185.42 0)
+			(at 40.64 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15120,18 +14186,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d73b2976-e7e5-4227-b8b7-cdedcd695efe")
-		)
-		(pin "2"
-			(uuid "78467745-c867-414b-a8e7-d020d964caa7")
-		)
-		(pin "3"
-			(uuid "1195633a-3663-4458-8af4-8c3c2c7b3beb")
+			(uuid "5d387ca6-2dbf-44e9-8702-a97e90860f00")
 		)
 		(instances
 			(project "RP2350-PICO2-XXL_Rev_C"
 				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
-					(reference "Q1")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -15211,204 +14271,6 @@
 			(project "RP2350-PICO2-XXL_Rev_C"
 				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OLIMEX_RCL:R")
-		(at 364.49 238.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "454f4404-a876-47bc-9314-9cb9bafefb4b")
-		(property "Reference" "R27"
-			(at 359.41 237.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NA"
-			(at 369.57 237.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "OLIMEX_RLC-FP:R_0402_5MIL_DWS"
-			(at 364.49 240.538 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 364.49 238.76 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 364.49 238.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value XL" ""
-			(at 364.49 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value XXL" ""
-			(at 364.49 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "28807331-c837-432b-813c-c66ea337eeb8")
-		)
-		(pin "2"
-			(uuid "f865a0b7-5064-4fd2-8c52-c26cb33010a7")
-		)
-		(instances
-			(project "RP2350-PICO2-XXL_Rev_C"
-				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OLIMEX_RCL:R")
-		(at 326.39 205.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "47a0032f-652d-4f07-aead-7303d93ea6ae")
-		(property "Reference" "R20"
-			(at 320.04 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k/R0402"
-			(at 336.55 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "OLIMEX_RLC-FP:R_0402_5MIL_DWS"
-			(at 326.39 207.518 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 326.39 205.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 326.39 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value XL" "NA(10k/R0402)"
-			(at 326.39 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value XXL" ""
-			(at 326.39 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "55cf6bc2-5e54-4ec9-ad2e-58f130304905")
-		)
-		(pin "2"
-			(uuid "38052946-1ce8-418e-a8aa-20674f0ca2e2")
-		)
-		(instances
-			(project "RP2350-PICO2-XXL_Rev_C"
-				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -15582,83 +14444,6 @@
 			(project "RP2350-PICO2-XXL_Rev_C"
 				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OLIMEX_RCL:R")
-		(at 59.69 180.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4d0dbbb8-b52c-4cbf-a175-14bf7d3afcda")
-		(property "Reference" "R9"
-			(at 54.61 179.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k/R0402"
-			(at 69.215 179.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "OLIMEX_RLC-FP:R_0402_5MIL_DWS"
-			(at 59.69 182.118 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 180.34 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "22ce9734-1b3e-454c-abcc-1ae693262d32")
-		)
-		(pin "2"
-			(uuid "6977d03f-e425-484a-b777-929eb12ba68c")
-		)
-		(instances
-			(project "RP2350-PICO2-XXL_Rev_C"
-				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -16057,205 +14842,6 @@
 		)
 	)
 	(symbol
-		(lib_id "OLIMEX_RCL:R")
-		(at 349.25 200.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "584769c0-8d1a-4bc8-a5be-02a848987fd5")
-		(property "Reference" "R24"
-			(at 342.9 199.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33R/R0402"
-			(at 360.68 199.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "OLIMEX_RLC-FP:R_0402_5MIL_DWS"
-			(at 349.25 202.438 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 349.25 200.66 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 349.25 200.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value XL" "NA(33R/R0402)"
-			(at 349.25 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value XXL" ""
-			(at 349.25 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d52b3e52-7ca7-4f57-b003-94db27530463")
-		)
-		(pin "2"
-			(uuid "725778d6-94c4-408f-9505-87416634a31f")
-		)
-		(instances
-			(project "RP2350-PICO2-XXL_Rev_C"
-				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OLIMEX_RCL:R")
-		(at 359.41 233.68 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "59c308d3-dde8-4a45-b53b-00d1e1f1b8d2")
-		(property "Reference" "R26"
-			(at 354.33 232.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33R/R0402"
-			(at 368.3 232.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" "OLIMEX_RLC-FP:R_0402_5MIL_DWS"
-			(at 357.632 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 359.41 233.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 359.41 233.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value XL" "NA(33R/R0402)"
-			(at 359.41 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value XXL" ""
-			(at 359.41 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b5cf103a-6c1a-4124-82d6-faf78b75db9d")
-		)
-		(pin "2"
-			(uuid "2705de81-41ab-4ee2-865a-625ef400bb40")
-		)
-		(instances
-			(project "RP2350-PICO2-XXL_Rev_C"
-				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "OLIMEX_RCL:C")
 		(at 40.64 106.68 270)
 		(unit 1)
@@ -16403,105 +14989,6 @@
 			(project "RP2350-PICO2-XXL_Rev_C"
 				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
 					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OLIMEX_RCL:C")
-		(at 327.66 215.9 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6ef4a4fb-5d0b-471d-90f2-ffbbc7c9453b")
-		(property "Reference" "C27"
-			(at 323.85 214.63 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47uF/6.3V/20%/X5R/C0805"
-			(at 340.995 214.63 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.9906 0.9906)
-				)
-			)
-		)
-		(property "Footprint" "OLIMEX_RLC-FP:C_0805_5MIL_DWS"
-			(at 327.66 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 327.66 215.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 327.66 215.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value XL" "NA(47uF/6.3V/20%/X5R/C0805)"
-			(at 327.66 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value XXL" ""
-			(at 327.66 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "af966f05-d586-4b93-888a-ade6a83d4519")
-		)
-		(pin "2"
-			(uuid "d1b46daa-381f-4d9a-9509-2d48eb3fc9a9")
-		)
-		(instances
-			(project "RP2350-PICO2-XXL_Rev_C"
-				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
-					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -16915,133 +15402,6 @@
 		)
 	)
 	(symbol
-		(lib_id "OLIMEX_Connectors:MICRO_SD(TFC-9P-1.xH(ATFFS150A01BR016))")
-		(at 388.62 223.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "90db6ed4-97fb-4362-964c-b9286e3994ce")
-		(property "Reference" "MICRO_SD1"
-			(at 384.81 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TFC-9P-1.7H(ATFFS150A01BR016)"
-			(at 367.03 242.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "OLIMEX_Connectors-FP:uSD(TFC-9P-1.xH(ATFFS150A01BR016))"
-			(at 394.462 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.globalsources.com/gsol/I/Memory-card/p/sm/1148705868.htm?pos_dd=prod_PrdtDDImage_1_24#1148705868"
-			(at 397.4846 225.8314 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 388.62 223.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value XL" "NA(TFC-9P-1.7H(ATFFS150A01BR016))"
-			(at 388.62 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value XXL" ""
-			(at 388.62 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0011c859-3e01-41cb-a0ed-026db0c398ad")
-		)
-		(pin "2"
-			(uuid "03d91653-de5d-4838-a7d5-b3524aeefd82")
-		)
-		(pin "3"
-			(uuid "1fe09cb9-962a-485e-b3ca-a1501c5e311e")
-		)
-		(pin "4"
-			(uuid "91649a5a-dee0-4a96-93c6-410f1ff7dcc6")
-		)
-		(pin "5"
-			(uuid "15841d82-af4b-4eba-afb4-4732e10b766f")
-		)
-		(pin "6"
-			(uuid "fb2ef65f-9978-4c76-8e2c-692e4fa9bfd1")
-		)
-		(pin "7"
-			(uuid "878c391a-23ac-4349-a2fa-483133cebfd5")
-		)
-		(pin "8"
-			(uuid "a3b88293-f71a-44dd-994a-1ea7bed68e4e")
-		)
-		(pin "CD1"
-			(uuid "69db6747-ff93-4982-9b06-69bab4db87ce")
-		)
-		(pin "CH1"
-			(uuid "eb1022f2-79b0-485d-90f8-84f9ed281eac")
-		)
-		(instances
-			(project "RP2350-PICO2-XXL_Rev_C"
-				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
-					(reference "MICRO_SD1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "OLIMEX_RCL:R")
 		(at 44.45 43.18 0)
 		(unit 1)
@@ -17113,85 +15473,6 @@
 			(project "RP2350-PICO2-XXL_Rev_C"
 				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OLIMEX_RCL:C")
-		(at 40.64 187.96 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9dab7196-2938-4e96-a210-82053e217158")
-		(property "Reference" "C21"
-			(at 34.925 186.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "27pF/50V/5%/C0G/C0402"
-			(at 41.91 186.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "OLIMEX_RLC-FP:C_0402_5MIL_DWS"
-			(at 40.64 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 187.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 40.64 187.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "59647d4b-4f2f-4b0f-80ee-4e273b1f9a6f")
-		)
-		(pin "2"
-			(uuid "9568422f-a356-465d-85f5-5b26ae5e7798")
-		)
-		(instances
-			(project "RP2350-PICO2-XXL_Rev_C"
-				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -17683,8 +15964,8 @@
 		)
 	)
 	(symbol
-		(lib_id "OLIMEX_Power:GND")
-		(at 378.46 236.22 270)
+		(lib_id "PCM_Crystal_AKL:SMD2520-4")
+		(at 52.07 184.15 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17692,9 +15973,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c430a56a-65fb-44d5-af1c-19642df8c2de")
-		(property "Reference" "#PWR048"
-			(at 372.11 236.22 0)
+		(fields_autoplaced yes)
+		(uuid "c6c4f013-7fed-477d-9faf-8bd75c2c0708")
+		(property "Reference" "X1"
+			(at 57.15 182.8799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD2520-4"
+			(at 57.15 185.4199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Crystal_AKL:Crystal_SMD_2520-4Pin_2.5x2.0mm"
+			(at 52.07 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17704,8 +16008,9 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 377.19 238.76 90)
+		(property "Datasheet" ""
+			(at 52.07 184.15 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17714,28 +16019,9 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 378.46 236.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 378.46 236.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 378.46 236.22 0)
+		(property "Description" "SMD Quartz crystal, 4 terminals, 2.5mm x 2.0mm, Alternate KiCad Library"
+			(at 52.07 184.15 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17745,12 +16031,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "2fca9e2b-528c-46a9-a4a4-f7461a8f4635")
+			(uuid "d75a9191-4bb5-450e-9e54-ac2d8fb63458")
+		)
+		(pin "2"
+			(uuid "17287ab1-221a-42b4-8d53-d4cebeb2ad07")
+		)
+		(pin "4"
+			(uuid "afc0d760-8a64-452b-8db7-01bf00eca045")
+		)
+		(pin "3"
+			(uuid "5d46379b-f84e-4e1a-958c-2ed6185b8fd9")
 		)
 		(instances
 			(project "RP2350-PICO2-XXL_Rev_C"
 				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
-					(reference "#PWR048")
+					(reference "X1")
 					(unit 1)
 				)
 			)
@@ -17834,8 +16129,8 @@
 		)
 	)
 	(symbol
-		(lib_id "OLIMEX_RCL:R")
-		(at 326.39 228.6 0)
+		(lib_id "OLIMEX_Power:+3.3V")
+		(at 36.83 180.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17843,60 +16138,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ce438534-a291-4925-859f-593b99b796ea")
-		(property "Reference" "R23"
-			(at 320.04 227.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k/R0402"
-			(at 336.55 227.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "OLIMEX_RLC-FP:R_0402_5MIL_DWS"
-			(at 326.39 230.378 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 326.39 228.6 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 326.39 228.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value XL" "NA(10k/R0402)"
-			(at 326.39 228.6 0)
+		(uuid "d5e6b130-845d-41d4-a7d4-14650e0ab47d")
+		(property "Reference" "#PWR011"
+			(at 40.64 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17906,67 +16150,18 @@
 				)
 			)
 		)
-		(property "Value XXL" ""
-			(at 326.39 228.6 0)
-			(hide yes)
+		(property "Value" "+3.3V"
+			(at 31.115 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(pin "1"
-			(uuid "07680b98-4168-44ca-9638-8982bf5aee3e")
-		)
-		(pin "2"
-			(uuid "63ffc24e-516f-409a-b385-42e22caa36bd")
-		)
-		(instances
-			(project "RP2350-PICO2-XXL_Rev_C"
-				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OLIMEX_Power:GND")
-		(at 317.5 215.9 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d2f9160e-ff13-40dd-8a89-b68fae716abc")
-		(property "Reference" "#PWR036"
-			(at 311.15 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 314.96 215.9 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 317.5 215.9 0)
+			(at 36.83 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17976,7 +16171,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 317.5 215.9 0)
+			(at 36.83 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17986,7 +16181,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 317.5 215.9 0)
+			(at 36.83 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17996,12 +16191,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a67e745-fc26-46e6-810c-17d5d941bf66")
+			(uuid "6f398a34-1ee3-4c79-85aa-fa0ff1109ffb")
 		)
 		(instances
 			(project "RP2350-PICO2-XXL_Rev_C"
 				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
-					(reference "#PWR036")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -18155,105 +16350,6 @@
 			(project "RP2350-PICO2-XXL_Rev_C"
 				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OLIMEX_RCL:R")
-		(at 326.39 226.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e0bea82b-ae8a-4e94-bf41-dac91ba51584")
-		(property "Reference" "R22"
-			(at 320.04 224.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k/R0402"
-			(at 336.55 224.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "OLIMEX_RLC-FP:R_0402_5MIL_DWS"
-			(at 326.39 227.838 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 326.39 226.06 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 326.39 226.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value XL" "NA(10k/R0402)"
-			(at 326.39 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value XXL" ""
-			(at 326.39 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2a750338-f5ae-4ffa-8067-3662269dff44")
-		)
-		(pin "2"
-			(uuid "e8efc215-3b66-41e8-a831-a5af78eff23f")
-		)
-		(instances
-			(project "RP2350-PICO2-XXL_Rev_C"
-				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
-					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -18418,105 +16514,6 @@
 		)
 	)
 	(symbol
-		(lib_id "OLIMEX_RCL:R")
-		(at 359.41 220.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e3d92202-73e6-4614-aff9-ba211c0b34f3")
-		(property "Reference" "R25"
-			(at 354.33 219.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33R/R0402"
-			(at 368.554 219.964 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" "OLIMEX_RLC-FP:R_0402_5MIL_DWS"
-			(at 359.41 222.758 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 359.41 220.98 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 359.41 220.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value XL" "NA(33R/R0402)"
-			(at 359.41 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value XXL" ""
-			(at 359.41 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "55c8afe8-9d65-4d65-97ff-95d8c2f4eca8")
-		)
-		(pin "2"
-			(uuid "2a840d32-ea0a-415f-830f-9c37b1e14f91")
-		)
-		(instances
-			(project "RP2350-PICO2-XXL_Rev_C"
-				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "OLIMEX_RCL:C")
 		(at 40.64 93.98 270)
 		(unit 1)
@@ -18665,105 +16662,6 @@
 			(project "RP2350-PICO2-XXL_Rev_C"
 				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OLIMEX_RCL:L")
-		(at 325.12 213.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "eee71e21-c3f4-4573-8c08-15e0a462e1c4")
-		(property "Reference" "L3"
-			(at 319.405 212.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FB0805/600R/2A"
-			(at 337.185 212.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.9906 0.9906)
-				)
-			)
-		)
-		(property "Footprint" "OLIMEX_RLC-FP:L_0805_5MIL_DWS"
-			(at 323.85 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 323.85 213.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 325.12 213.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value XL" "NA(FB0805/600R/2A)"
-			(at 325.12 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value XXL" ""
-			(at 325.12 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "43bd168d-7d2d-4da2-b2f8-50d7e2029d9f")
-		)
-		(pin "2"
-			(uuid "178bc112-4598-41af-af90-71746b226023")
-		)
-		(instances
-			(project "RP2350-PICO2-XXL_Rev_C"
-				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
-					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -18956,105 +16854,6 @@
 			(project "RP2350-PICO2-XXL_Rev_C"
 				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OLIMEX_RCL:R")
-		(at 326.39 223.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fba5d70e-f868-4b4d-9a4d-b59f26cdbd74")
-		(property "Reference" "R21"
-			(at 320.04 222.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k/R0402"
-			(at 336.55 222.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "OLIMEX_RLC-FP:R_0402_5MIL_DWS"
-			(at 326.39 225.298 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 326.39 223.52 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 326.39 223.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value XL" "NA(10k/R0402)"
-			(at 326.39 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value XXL" ""
-			(at 326.39 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e1b5827e-0669-4730-876f-3acef677594e")
-		)
-		(pin "2"
-			(uuid "3f1c7517-55d9-4b64-a999-b99a79ecf076")
-		)
-		(instances
-			(project "RP2350-PICO2-XXL_Rev_C"
-				(path "/3f71945b-92ab-4be3-8cab-a7311111de64"
-					(reference "R21")
 					(unit 1)
 				)
 			)

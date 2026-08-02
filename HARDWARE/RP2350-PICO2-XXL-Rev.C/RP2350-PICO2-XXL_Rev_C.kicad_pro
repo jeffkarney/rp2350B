@@ -78,51 +78,11 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|143500000|113500000|6d59682e-0838-47ba-b3bc-c0a549d1358a|bc9fb893-1c86-407f-bde2-47d7be6d826b",
-          ""
-        ],
-        [
-          "hole_clearance|143500000|113500000|bc9fb893-1c86-407f-bde2-47d7be6d826b|442fe86a-0d72-4547-ad1a-35f203fff541",
-          ""
-        ],
-        [
           "hole_clearance|145022400|66500000|85002eaa-066b-47fd-997c-9b29605ffe5c|13ae0f94-3044-4c35-b2b3-1bf2ed94e001",
           ""
         ],
         [
           "hole_clearance|155977600|66500000|43f431d3-540c-4363-ba71-8f46d44bdc7b|77d62ca9-5875-498f-ac4e-4159b6e89ef0",
-          ""
-        ],
-        [
-          "hole_clearance|157500000|113500000|9f959205-9015-485a-be40-65411b4d7309|d4a4bbcb-dead-40f9-b622-d723b20cbb75",
-          ""
-        ],
-        [
-          "hole_clearance|157500000|113500000|d4a4bbcb-dead-40f9-b622-d723b20cbb75|a258dd25-9835-4a32-a52b-826aa0252022",
-          ""
-        ],
-        [
-          "solder_mask_bridge|143500000|67750000|13ae0f94-3044-4c35-b2b3-1bf2ed94e001|d092bf72-707e-4942-ae92-164afe21f1f7",
-          ""
-        ],
-        [
-          "solder_mask_bridge|143500000|67750000|13ae0f94-3044-4c35-b2b3-1bf2ed94e001|d15d4ebe-7191-45ec-a51b-62153f85dae1",
-          ""
-        ],
-        [
-          "solder_mask_bridge|144475000|113750000|bc9fb893-1c86-407f-bde2-47d7be6d826b|442fe86a-0d72-4547-ad1a-35f203fff541",
-          ""
-        ],
-        [
-          "solder_mask_bridge|144475000|113750000|bc9fb893-1c86-407f-bde2-47d7be6d826b|6d59682e-0838-47ba-b3bc-c0a549d1358a",
-          ""
-        ],
-        [
-          "solder_mask_bridge|156500000|113750000|d4a4bbcb-dead-40f9-b622-d723b20cbb75|9f959205-9015-485a-be40-65411b4d7309",
-          ""
-        ],
-        [
-          "solder_mask_bridge|156500000|113750000|d4a4bbcb-dead-40f9-b622-d723b20cbb75|a258dd25-9835-4a32-a52b-826aa0252022",
           ""
         ]
       ],
@@ -1016,7 +976,7 @@
         "uuid": "3f71945b-92ab-4be3-8cab-a7311111de64"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C20,JP1,#PWR10-11,X1",
     "variants": []
   },
   "sheets": [
